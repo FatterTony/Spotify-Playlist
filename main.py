@@ -120,7 +120,7 @@ print('\x1b[6;30;42m' + "All tracks added..." + '\x1b[0m')
 
 
 
-#Save not found and not added tracks to .txt file
+#Save not found tracks to .txt file
 if os.path.exists(save_at):
     os.remove(save_at)
 
@@ -129,6 +129,7 @@ with open(save_at, 'w',encoding="utf-8") as fp:
     for item in not_found:
         fp.write("%s\n" % item)
 
+#Save not not added tracks to .txt file
 if os.path.exists(save_at2):
     os.remove(save_at2)
 
