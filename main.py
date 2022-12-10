@@ -11,20 +11,20 @@ from spotipy.oauth2 import SpotifyOAuth
 
 
 ###Variables to set:
-SPOTIPY_CLIENT_ID = 'e610f95bd7d5443fa34bfd5c26550fdb'
-SPOTIPY_CLIENT_SECRET = '27d8c89d2ce645deab07bec8a540f944'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
 # assign directory
 directory = 'E:\\Private\\Handy\\Music\\' #Directory of music
 save_at = 'C:\\Users\\Philipp\\Desktop\\not_found.txt' #Directory and Filename where all tracks that could not be found in Spotify are saved.
 save_at2 = 'C:\\Users\\Philipp\\Desktop\\not_added.txt' #Directory and Filename where all tracks that are nod added because of strong missmatch between search and found are saved.
 
 #Add playlist information
-username = 'phlppphlpp'
-playlist_id = '3nvdPWyfXuTlvnTo2t169B'
+username = 'YOUR SPOTIFY USERNAME'
+playlist_id = 'YOUT PLAYLIST ID'
 
 #Add token for spotify api access. Get new token here: https://developer.spotify.com/console/get-track/
 scope = 'playlist-modify-private'
-token = 'BQCVPeediPRWLXLh8BpVdAO9qLhP5t-LdURFVw9-ZhwTIi1CGNu2rDzbD-YZSLtuFwX0WU56XGs0RY4gs15mptRJ-ePftAO2X_Iv4rG9NtIaGqL2bkcBogg61KuITPXmGdIunmBPIgM1JovTBsOlI_cPKYTvaziPJfo7Ka85M92ANLSSPip-tNS-7q0ocG8DcQ4W-CooXtMfyNs'
+token = 'YOUR TOKEN'
 
 
 
