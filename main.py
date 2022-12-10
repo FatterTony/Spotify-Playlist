@@ -6,7 +6,6 @@ import time
 import music_tag
 import os
 from difflib import SequenceMatcher
-
 import spotipy.util as util
 from spotipy.oauth2 import SpotifyOAuth
 
